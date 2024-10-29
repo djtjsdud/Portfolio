@@ -1,0 +1,20 @@
+/* 한글 폰트*/
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  영어 폰트 */
+
+.syncopate-regular {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.syncopate-bold {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

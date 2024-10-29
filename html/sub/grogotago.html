@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고르고타고</title>
+
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" href="/img/images/grogotago-img/favicon-folder/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/img/images/grogotago-img/favicon-folder/favicon.svg" />
+    <link rel="shortcut icon" href="/img/images/grogotago-img/favicon-folder/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/images/grogotago-img/favicon-folder/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/images/grogotago-img/favicon-folder/site.webmanifest" />
+
+    <!-- 플러그인 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">  
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--  -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/scss/eo.min.css?var=<?php echo time(); ?>">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="top-header">
+                <h1 class="header-mainlogo">
+                    <a href="/">
+                        <h1 class="mainlogo-img">
+                            <img src="/img/images/grogotago-img/mainlogo-img.svg" alt="고르고타고 메인로고 이미지입니다.">
+                        </h1>
+                    </a>
+                </h1>
+                <ul class="utill-menu">
+                    <li class="mypage-icon">
+                        <a href="#none"><img src="/img/images/grogotago-img/mypage-icon.svg" alt="마이페이지 아이콘입니다."></a>
+                    </li>
+                    <li class="shopping-cart-icon">
+                        <a href="#none"><img src="/img/images/grogotago-img/shopping-cart-icon.svg" alt="장바구니 아이콘입니다."></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="bottom-header">
+                <div class="header-menu">
+                    <ul class="depth-01">
+                        <li class="category-menu-box">
+                            <a href="#none" class="category-menu">
+                                <img src="/img/images/grogotago-img/category-icon.svg" alt="카테고리 아이콘입니다.">
+                                <span>카테고리</span>
+                            </a>
+                            <ul class="depth-02">
+                                <li><a href="메뉴1">하이브리드</a></li>
+                                <li><a href="메뉴1">픽시</a></li>
+                                <li><a href="메뉴1">로드바이크</a></li>
+                                <li><a href="메뉴1">MTB</a></li>
+                                <li><a href="메뉴1">키즈바이크</a></li>
+                                <li><a href="메뉴1">자전거용품/기타</a></li>
+                            </ul>
+                        </li>
+                        <li class="line"><span></span></li>
+                        <li>
+                            <a href="#none">베스트</a>
+                        </li>
+                        <li>
+                            <a href="#none">신상품</a>
+                        </li>
+                        <li>
+                            <a href="#none">세일</a>
+                        </li>
+                        <li>
+                            <a href="#none">기획전</a>
+                        </li>
+                        <li>
+                            <a href="#none">이벤트</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-input-box" placeholder="검색어를 입력해주세요.">
+                    <button class="search-btn">
+                        <img src="/img/images/grogotago-img/search-icon.svg" class="search-icon-img" alt="검색 아이콘입니다.">
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="mainbanner">
+        <div id="mainbanner-swiper" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="banner-text">
+                        <h3>도전과 자유를 만나다</h3>
+                        <p> 산악 자전거 라이딩의 짜릿한 순간!</p>
+                        <button>MTA 구경하기</button>
+                    </div>
+                </div>
+                <div class="swiper-slide slide2">
+                    <div class="banner-text">
+                        <h3>도전과 자유를 만나다</h3>
+                        <p> 산악 자전거 라이딩의 짜릿한 순간!</p>
+                        <button>MTA 구경하기</button>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="banner-text">
+                        <h3>도전과 자유를 만나다</h3>
+                        <p> 산악 자전거 라이딩의 짜릿한 순간!</p>
+                        <button>MTA 구경하기</button>
+                    </div>
+                </div>
+                <div class="swiper-slide slide4">
+                    <div class="banner-text">
+                        <h3>도전과 자유를 만나다</h3>
+                        <p> 산악 자전거 라이딩의 짜릿한 순간!</p>
+                        <button>MTA 구경하기</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="category-product">
+        <div id="category-swiper" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section id="best">
+        <div class="best-tabs">
+            <div class="best-container">
+                <h2 class="best-title">BEST BIKE</h2>
+                <!-- outer Tabs -->
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">하이브리드</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">로드바이크</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pixie-tab" data-bs-toggle="tab" href="#pixie" role="tab" aria-controls="pixie" aria-selected="false">픽시</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">MTA</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">키즈바이크</a>
+                    </li>
+                </ul>
+                <!-- outer Tab Content -->
+                <div class="tab-content" id="myTabContent">
+                    <!-- 베스트 하이브리드 탭  -->
+                    <div class="tab-pane fade show active best-h" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <ul class="best-h-tab">
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- 베스트 로드바이크 탭  -->
+                    <div class="tab-pane fade best-r" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <ul class="best-r-tab">
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 베스트 픽시 탭  -->
+                    <div class="tab-pane fade best-p" id="pixie-tab" role="tabpanel" aria-labelledby="pixie-tab">
+                        <ul class="best-p-tab">
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 미들배너 영역 -->
+    <section id="middle-banner">
+        <ul class="m-banner-box">
+            <li class="m-banner-img">
+                <div class="overlay"></div>
+            </li>
+            <li class="m-banner-right">
+                <div class="m-banner-text">
+                    <span class="m-banner-title">아이와 함께 만드는 의미 있는 시간</span>
+                    <span class="m-banner-content">스타카토 테라노바 M7 키즈바이크 20 출시 기념,
+                        <br>추첨을 통해 해당 상품을 드립니다.</span>
+                    <button>응모하기</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 뉴스 영역 -->
+    <section id="news">
+        <div class="news-container">
+            <h2 class="news-title">GROGOTAGO NEWS</h2>
+            <ul class="news-box">
+                <li class="first-news">
+                    <a href="#none">
+                        <span class="news-text">
+                            <span class="event-date">24.12.20 ~ 24.12.30</span>
+                            <strong class="event-title">[EVENT] 친구와의 동행</strong>
+                            <span class="event-content">
+                                친구와 자전거 타는 순간을 포토리뷰로 남기고, 
+                                <br>추첨을 통해 특별한 선물을 받아가세요!
+                            </span>
+                        </span>
+                        <img src="/img/images/grogotago-img/news-img1.jpg" alt="친구와의 동행 이벤트 이미지입니다.">
+                    </a>
+                </li>
+                <li class="second-news">
+                    <a href="#none">
+                        <img src="/img/images/grogotago-img/news-img2.jpg" alt="친구와의 동행 이벤트 이미지입니다.">
+                        <span class="news-text">
+                            <span class="event-date">24.11.18 ~ 25.03.18</span>
+                            <strong class="event-title">고르고타고 홈투홈 서비스</strong>
+                            <span class="event-content">
+                                배송기사님의 자전거 픽업부터 
+                                <br>정비 수리 후, 배송까지 빠르고 안전하게!
+                            </span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="sale">
+        <h2 class="sale-title">TODAY’S SALE</h2>
+        <div class="sale-slide">
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img1.jpg" alt="첫 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img2.jpg" alt="두 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img3.jpg" alt="세 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img3.jpg" alt="세 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img3.jpg" alt="세 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+            <div class="sale-img-box">
+                <img src="/img/images/grogotago-img/sale-img3.jpg" alt="세 번째 세일 제품입니다.">
+                <span class="sale-product-info">
+                    <span class="sale-brand-name">아메리칸이글</span>
+                    <span class="sale-product-name">콤파스217 접이식자전거 미니벨로 11.75kg</span>
+                    <span class="sale-price">14,000원</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="review">
+        <ul class="review-box">
+            <li class="review-img review-img1"></li>
+            <li class="review-img review-img2"></li>
+            <li class="review-img review-img3"></li>
+            <li class="review-img review-img4"></li>
+        </ul>
+    </section>
+
+    <footer id="footer" class="d-none d-md-block">
+        <div class="footer-container">
+            <div class="footer-top">
+                <ul class="footer-menu">
+                    <li class="footer-menu-top">
+                        <ul>
+                            <li><a href="#">서비스이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-menu-bottom">
+                        <ul>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">제휴문의</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer-icon">
+                    <li><a href="#"><img src="/images/naver-icon.svg" alt="네이버 아이콘 이미지"></a></li>
+                    <li><a href="#"><img src="/images/kakao-icon.svg" alt="카카오 아이콘 이미지"></a></li>
+                    <li><a href="#"><img src="/images/instagram-icon.svg" alt="인스타그램 아이콘 이미지"></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-left">
+                    <a href="#"><img src="/images/footer-logo-img.jpg" alt="푸터 로고 이미지"></a>
+                    <ul class="brand-info">
+                        <li>
+                            <span><b>주식회사</b> 뷰티스퀘어</span><span><b>대표이사</b> 어선영</span><span><b>사업자등록번호</b> 123-45-67890</span>
+                        </li>
+                        <li><b>주소</b> 경기도 대한시 민국구 만세대로 123 801호</li>
+                        <li><b>호스팅 서비스 사업자</b> 닷홈</li>
+                        <li>COPYRIGHT ⓒ 2024 Beautysquare. ALL RIGHTS RESERVED.</li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <ul class="brand-number">
+                        <li><strong>000-000-0000</strong></li>
+                        <li>AM 10:00 - PM 17:00 (Lunch 12:00 - 13:00)
+                            <br>주말, 공휴일 휴무</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    
+    <script src="/js/gorgotago.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

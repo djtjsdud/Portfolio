@@ -1222,8 +1222,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
 }
 h1 small,
 .h1 small,
@@ -1415,7 +1415,7 @@ a.bg-danger:focus {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 ul ul,
 ol ul,
@@ -1588,19 +1588,19 @@ pre code {
   margin-left: auto;
 }
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     width: 750px;
-  }
+  } */
 }
 @media (min-width: 992px) {
-  .container {
+  /* .container {
     width: 970px;
-  }
+  } */
 }
 @media (min-width: 1200px) {
-  .container {
+  /* .container {
     width: 1170px;
-  }
+  } */
 }
 .container-fluid {
   padding-right: 15px;

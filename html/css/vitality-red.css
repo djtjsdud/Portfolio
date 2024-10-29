@@ -13,9 +13,9 @@ body {
 .content-row {
   margin-top: 30px;
 }
-section {
+/* section {
   padding: 100px 0;
-}
+} */
 .bg-gray {
   background-color: #f5f5f5;
 }
@@ -40,7 +40,7 @@ input.form-control:focus {
 }
 .btn,
 .input-group-btn {
-  border-radius: 0 !important;
+  /* border-radius: 0 !important;/ */
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -96,14 +96,14 @@ fieldset[disabled] .btn-primary.active {
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
-a {
+/* a {
   color: #EF4035;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-}
+} */
 a:hover,
 a:focus {
   color: inherit;
@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -177,8 +177,9 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #EF4035;
-  background-color: white;
+  color: #333;
+  background-color: transparent;
+  font-weight: 600;
   border-radius: 0;
 }
 .navbar-default {
@@ -189,7 +190,10 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222;
+  /* background-color: #222; */
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  border: none;
 }
 .navbar-default,
 .navbar-inverse {
@@ -235,7 +239,7 @@ hr.colored {
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
-  color: white;
+  color: #333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -251,7 +255,7 @@ hr.colored {
     border-radius: 5px;
   }
   .navbar-fixed-top.navbar-expanded {
-    padding: 30px 0;
+    /* padding: 30px 0; */
   }
   .navbar-fixed-top {
     padding: 15px 0;
@@ -264,7 +268,8 @@ hr.colored {
   }
   .navbar-default.navbar-expanded,
   .navbar-inverse.navbar-expanded {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
     border: none;
   }
 }
@@ -290,7 +295,7 @@ header {
 }
 header .intro-content {
   color: white;
-  text-align: center;
+  /* text-align: center; */
   position: relative;
 }
 header .brand-name {
@@ -344,8 +349,9 @@ header .scroll-down .btn:hover {
   }
   header .intro-content {
     color: white;
-    text-align: center;
-    width: 50%;
+    /* text-align: center; */
+    width: 100%;
+    width: 1440px;
     margin: auto;
     position: absolute;
     top: 50%;

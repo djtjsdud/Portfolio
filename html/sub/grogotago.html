@@ -15,7 +15,7 @@
     <!-- 플러그인 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">  
+    <!-- <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css"> -->
 
     <!-- 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -143,32 +143,60 @@
         </div>
     </section>
 
+    <!-- 탭 -->
+    <!-- <section>
+        <div class="container mt-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">홈</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">프로필</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">연락처</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h5>홈</h5>
+                    <p>홈 탭의 내용이 여기에 표시됩니다.</p>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <h5>프로필</h5>
+                    <p>프로필 탭의 내용이 여기에 표시됩니다.</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <h5>연락처</h5>
+                    <p>연락처 탭의 내용이 여기에 표시됩니다.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <section id="best">
         <div class="best-tabs">
             <div class="best-container">
                 <h2 class="best-title">BEST BIKE</h2>
-                <!-- outer Tabs -->
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">하이브리드</a>
+                        <a class="nav-link active" id="high-tab" data-bs-toggle="tab" href="#high" role="tab" aria-controls="high" aria-selected="true">하이브리드</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">로드바이크</a>
+                        <a class="nav-link" id="road-tab" data-bs-toggle="tab" href="#road" role="tab" aria-controls="road" aria-selected="false">로드바이크</a>
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" id="pixie-tab" data-bs-toggle="tab" href="#pixie" role="tab" aria-controls="pixie" aria-selected="false">픽시</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">MTA</a>
+                        <a class="nav-link" id="mta-tab" data-bs-toggle="tab" href="#mta" role="tab" aria-controls="mta" aria-selected="false">MTA</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">키즈바이크</a>
+                        <a class="nav-link" id="kids-tab" data-bs-toggle="tab" href="#kids" role="tab" aria-controls="kids" aria-selected="false">키즈바이크</a>
                     </li>
                 </ul>
-                <!-- outer Tab Content -->
                 <div class="tab-content" id="myTabContent">
-                    <!-- 베스트 하이브리드 탭  -->
-                    <div class="tab-pane fade show active best-h" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade show active best-h" id="high" role="tabpanel" aria-labelledby="high-tab">
                         <ul class="best-h-tab">
                             <li>
                                 <a href="#none">
@@ -233,9 +261,73 @@
                         </ul>
                     </div>
     
-                    <!-- 베스트 로드바이크 탭  -->
-                    <div class="tab-pane fade best-r" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="tab-pane best-r" id="road" role="tabpanel" aria-labelledby="road-tab">
                         <ul class="best-r-tab">
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한2</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane best-p" id="pixie" role="tabpanel" aria-labelledby="pixie-tab">
+                        <ul class="best-p-tab">
                             <li>
                                 <a href="#none">
                                     <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
@@ -299,8 +391,72 @@
                         </ul>
                     </div>
 
-                    <!-- 베스트 픽시 탭  -->
-                    <div class="tab-pane fade best-p" id="pixie-tab" role="tabpanel" aria-labelledby="pixie-tab">
+                    <div class="tab-pane best-p" id="mta" role="tabpanel" aria-labelledby="mta-tab">
+                        <ul class="best-p-tab">
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="/img/images/grogotago-img/best-product/h-best1.jpg" alt="하이브리드 베스트 1위 제품 이미지입니다.">
+                                    <strong class="best-h-title">스타카토 캐스케이드 마크3 SE 24단 700C</strong>
+                                    <span class="best-h-price">438,000원</span>
+                                    <span class="best-h-tag">
+                                        <span>하이브리드</span><span>튼튼한</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane best-p" id="kids" role="tabpanel" aria-labelledby="kids-tab">
                         <ul class="best-p-tab">
                             <li>
                                 <a href="#none">
@@ -477,10 +633,38 @@
 
     <section id="review">
         <ul class="review-box">
-            <li class="review-img review-img1"></li>
-            <li class="review-img review-img2"></li>
-            <li class="review-img review-img3"></li>
-            <li class="review-img review-img4"></li>
+            <li class="review-img review-img1">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <img src="/img/images/grogotago-img/user-icon.svg" alt="유저 프로필 이미지입니다.">
+                    </div>
+                    <span class="user-id">@CycleJourney_kr</span>
+                </div>
+            </li>
+            <li class="review-img review-img2">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <img src="/img/images/grogotago-img/user-icon.svg" alt="유저 프로필 이미지입니다.">
+                    </div>
+                    <span class="user-id">@WheelsOfFreedom</span>
+                </div>
+            </li>
+            <li class="review-img review-img3">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <img src="/img/images/grogotago-img/user-icon.svg" alt="유저 프로필 이미지입니다.">
+                    </div>
+                    <span class="user-id">BicycleNomad</span>
+                </div>
+            </li>
+            <li class="review-img review-img4">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <img src="/img/images/grogotago-img/user-icon.svg" alt="유저 프로필 이미지입니다.">
+                    </div>
+                    <span class="user-id">@CyclingSoulmate</span>
+                </div>
+            </li>
         </ul>
     </section>
 
@@ -503,14 +687,14 @@
                     </li>
                 </ul>
                 <ul class="footer-icon">
-                    <li><a href="#"><img src="/images/naver-icon.svg" alt="네이버 아이콘 이미지"></a></li>
-                    <li><a href="#"><img src="/images/kakao-icon.svg" alt="카카오 아이콘 이미지"></a></li>
-                    <li><a href="#"><img src="/images/instagram-icon.svg" alt="인스타그램 아이콘 이미지"></a></li>
+                    <li><a href="#"><img src="/img/images/grogotago-img/f-naver-icon.svg" alt="네이버 아이콘 이미지"></a></li>
+                    <li><a href="#"><img src="/img/images/grogotago-img/f-kakao-icon.svg" alt="카카오 아이콘 이미지"></a></li>
+                    <li><a href="#"><img src="/img/images/grogotago-img/f-insta-icon.svg" alt="인스타그램 아이콘 이미지"></a></li>
                 </ul>
             </div>
             <div class="footer-bottom">
                 <div class="footer-left">
-                    <a href="#"><img src="/images/footer-logo-img.jpg" alt="푸터 로고 이미지"></a>
+                    <a href="#"><img src="/img/images/grogotago-img/footer-logo-img.jpg" alt="푸터 로고 이미지"></a>
                     <ul class="brand-info">
                         <li>
                             <span><b>주식회사</b> 뷰티스퀘어</span><span><b>대표이사</b> 어선영</span><span><b>사업자등록번호</b> 123-45-67890</span>
@@ -533,13 +717,13 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-
+    <script src="/vendor/bootstrap/js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     
     <script src="/js/gorgotago.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/bootstrap/js/bootstrap.js"></script>
+   
 </body>
 </html>

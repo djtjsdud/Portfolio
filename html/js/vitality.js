@@ -113,7 +113,7 @@ $(document).ready(function() {
         }
     });
 
-    // Scrollspy: Highlights the navigation menu items while scrolling.
+    //스크롤 시 해당영역 활성화
     $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51

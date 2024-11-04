@@ -293,7 +293,7 @@ ul {
 ol,
 ul,
 dl {
-  /* margin-top: 0; */
+  margin-top: 0;
   /* margin-bottom: 1rem; */
 }
 
@@ -3373,9 +3373,9 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+/* .collapse:not(.show) {
   display: none;
-}
+} */
 
 .collapsing {
   height: 0;
@@ -4011,7 +4011,7 @@ textarea.form-control-lg {
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4034,11 +4034,11 @@ textarea.form-control-lg {
   color: var(--bs-navbar-active-color);
 }
 
-.navbar-collapse {
+/* .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-}
+} */
 
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);

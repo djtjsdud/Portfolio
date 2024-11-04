@@ -9,16 +9,19 @@
     <meta name="author" content="">
     <title>어선영 포트폴리오</title>
 
+    <link rel="stylesheet" href="/css/reset.css">
+
     <!--파비콘-->
     <link rel="icon" type="image/png" href="/img/images/portfolio-img/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/img/images/portfolio-img/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/img/images/portfolio-img/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/img/images/portfolio-img/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/html/img/images/portfolio-img/favicon/site.webmanifest" />
+    <link rel="manifest" href="/img/images/portfolio-img/favicon/site.webmanifest" />
 
     
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
 
     <!-- Default Fonts (IMPORTANT: Delete these if you are using a different body style!) -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -39,6 +42,8 @@
     <link rel="stylesheet" href="/css/font.css">
 
     <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.css" />
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
     <link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
@@ -75,477 +80,488 @@
 <!-- NOTE: Use the .modern or .vintage class to the body element below to see different font pairings! -->
 
 <body id="page-top">
-    <!-- Navigation -->
-    <!-- NOTE: .navbar-default and .navbar-inverse are both supported with this theme. -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-bars"></i> Menu
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/agency/logo.svg" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top">HOME</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#none">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#project">PROJECT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#card-box">REDIGN</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#graphic">DESIGN</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="parallax__progress">
-            <progress max="100" value="0"></progress>
-        </div>
-    </nav>
-    <!-- Header -->
-    <header>
-        <div class="text-container">
-            <h2 class="text text1">SEONYEONG ' S<span class="Paperlogy-700">끝까지 간다!</span></h2>
-            <h2 class="text text2">WEP PUBLISHER<span class="Paperlogy-700">웹 퍼블리셔</span></h2>
-            <h2 class="text text3">PORTFOLIO<span class="Paperlogy-500">어선영입니다</span></h2>
-        </div>
-        <div class="scroll-down">
-            <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
-        </div>
-    </header>
 
-            <!-- 블러효과 -->
-    <article class="blur-box">
-        <div class="blur"></div>
-        <div class="blur"></div>
-        <div class="blur"></div>
-    </article>
-
-    <section id="project" class="beauty mx-auto">
-
-        <article class="all-project first-project">
-            <span class="project-img1"></span>
-            <div>
-
-                <div class="project-title">
-                    <h3 class="project-type">team project</h3>
-                    <h2 class="project-en-name">UNIVERSE<br>
-                    ENTERTAINMENT</h2>
-                    <h4 class="Paperlogy-400 project-ko-name">유니버스 엔터테인먼트</h4>
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars"></i> Menu
+                    </button> -->
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <img src="img/agency/logo.svg" class="img-responsive" alt="">
+                    </a>
                 </div>
-
-                <ul class="project-info Paperlogy-400">
-                    <li class="type">
-                        <span class="solution">솔루션 : </span>
-                        <span class="content">
-                            <span class="badge-hard badge">하드코딩</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업범위 : </span>
-                        <span class="content">
-                            <span class="badge-info">sub 회사소개</span>
-                            <span class="badge-list">sub 문의하기</span>
-                            <span class="badge-cart">sub 주문내역</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업기여도 : </span>
-                        <span class="content">
-                            <span class="badge-info">퍼블리싱 100%</span>
-                            <span class="badge-list">디자인 80%</span>
-                        </span>
-                    </li>
-                </ul>
-
-                <ul class="button-box1">
-                    <li>
-                        <a class="site-btn wep-btn" href="http://universe.dothome.co.kr/">
-                            <img src="/img/images/portfolio-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
-                            <span>WEPSITE</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-btn figma-btn" href="https://www.figma.com/design/3eGegNFFww0lEfavfz73qu/UNI-ent.?t=xDFFuYpJvhS44zYA-0">
-                            <img src="/img/images/portfolio-img/figma-icon.svg" alt="FIGMA 아이콘 이미지입니다.">
-                            <span>FIGMA</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-btn notion-btn" href="https://sapphire-client-d7d.notion.site/bf247e6e2188478795e4efd5527ae9af">
-                            <img src="/img/images/portfolio-img/notion-icon.svg" alt="NOTION 아이콘 이미지입니다.">
-                            <span>NOTION</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-btn git-btn" href="https://github.com/docarry/universe">
-                            <img src="/img/images/portfolio-img/git-icon.svg" alt="GIT 아이콘 이미지입니다.">
-                            <span>GIT</span>
-                        </a>
-                    </li>
-                </ul>
-
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#page-top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#none">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">PROJECT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#card-box">REDIGN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#graphic">DESIGN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <div class="progress-bar-one">
+            </div>
+        </nav>
+        <!-- 헤더 -->
+        <header>
+            <div class="text-container">
+                <h2 class="text text1">SEONYEONG ' S<span class="Paperlogy-700">끝까지 간다!</span></h2>
+                <h2 class="text text2">WEP PUBLISHER<span class="Paperlogy-700">웹 퍼블리셔</span></h2>
+                <h2 class="text text3">PORTFOLIO<span class="Paperlogy-500">어선영입니다</span></h2>
+            </div>
+            <div class="scroll-down">
+                <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+            </div>
+        </header>
+    
+                <!-- 블러효과 -->
+        <article class="blur-box">
+            <div class="blur"></div>
+            <div class="blur"></div>
+            <div class="blur"></div>
         </article>
-        <article class="all-project second-project">
-            <span class="project-img2"></span>
-            <div>
+    
+        <section id="project" class="beauty mx-auto navbar-fixed-top">
+    
+            <article class="all-project first-project">
+                <span class="project-img1"></span>
+                <div>
+    
+                    <div class="project-title">
+                        <h3 class="project-type">team project</h3>
+                        <h2 class="project-en-name">UNIVERSE<br>
+                        ENTERTAINMENT</h2>
+                        <h4 class="Paperlogy-500 project-ko-name">유니버스 엔터테인먼트</h4>
+                    </div>
+    
+                    <ul class="project-info Paperlogy-400">
+                        <li class="type">
+                            <span class="solution">솔루션 : </span>
+                            <span class="content">
+                                <span class="badge-hard badge">하드코딩</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업범위 : </span>
+                            <span class="content">
+                                <span class="badge-info">sub 회사소개</span>
+                                <span class="badge-list">sub 문의하기</span>
+                                <span class="badge-cart">sub 주문내역</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업기여도 : </span>
+                            <span class="content">
+                                <span class="badge-info">퍼블리싱 100%</span>
+                                <span class="badge-list">디자인 80%</span>
+                            </span>
+                        </li>
+                    </ul>
 
-                <div class="project-title">
-                    <h3 class="project-type">CMS</h3>
-                    <h2 class="project-en-name">LUSH</h2>
-                    <h4 class="Paperlogy-400 project-ko-name">러쉬</h4>
+                    
+    
+                    <ul class="button-box1">
+                        <li class="site-btn wep-btn">
+                            <a href="http://universe.dothome.co.kr/">
+                                <img src="/img/images/grogotago-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
+                                <span>WEPSITE</span>
+                            </a>
+                        </li>
+                        <li class="site-btn figma-btn">
+                            <a href="https://www.figma.com/design/3eGegNFFww0lEfavfz73qu/UNI-ent.?t=xDFFuYpJvhS44zYA-0">
+                                <img src="/img/images/portfolio-img/figma-icon.svg" alt="FIGMA 아이콘 이미지입니다.">
+                                <span>FIGMA</span>
+                            </a>
+                        </li>
+                        <li class="site-btn notion-btn">
+                            <a href="https://sapphire-client-d7d.notion.site/bf247e6e2188478795e4efd5527ae9af">
+                                <img src="/img/images/portfolio-img/notion-icon.svg" alt="NOTION 아이콘 이미지입니다.">
+                                <span>NOTION</span>
+                            </a>
+                        </li>
+                        <li class="site-btn git-btn">
+                            <a href="https://github.com/docarry/universe">
+                                <img src="/img/images/portfolio-img/git-icon.svg" alt="GIT 아이콘 이미지입니다.">
+                                <span>GIT</span>
+                            </a>
+                        </li>
+                    </ul>
+    
                 </div>
-
-                <ul class="project-info Paperlogy-400">
-                    <li class="type">
-                        <span class="solution">솔루션 : </span>
-                        <span class="content">
-                            <span class="badge-hard badge">카페24</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업범위 : </span>
-                        <span class="content">
-                            <span class="badge-info">메인</span>
-                            <span class="badge-list">sub 주문내역</span>
-                            <span class="badge-cart">sub 장바구니</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업기여도 : </span>
-                        <span class="content">
-                            <span class="badge-percent">100%</span>
-                        </span>
-                    </li>
-                </ul>
-
-                <span class="button-box2">
-                    <a class="site-btn wep-btn">
-                        <img src="/img/images/portfolio-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
-                        <span>WEPSITE</span>
+            </article>
+            <article class="all-project second-project">
+                <span class="project-img2"></span>
+                <div>
+    
+                    <div class="project-title">
+                        <h3 class="project-type">CMS</h3>
+                        <h2 class="project-en-name">LUSH</h2>
+                        <h4 class="Paperlogy-500 project-ko-name">러쉬</h4>
+                    </div>
+    
+                    <ul class="project-info Paperlogy-400">
+                        <li class="type">
+                            <span class="solution">솔루션 : </span>
+                            <span class="content">
+                                <span class="badge-hard badge">카페24</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업범위 : </span>
+                            <span class="content">
+                                <span class="badge-info">메인</span>
+                                <span class="badge-list">sub 주문내역</span>
+                                <span class="badge-cart">sub 장바구니</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업기여도 : </span>
+                            <span class="content">
+                                <span class="badge-percent">100%</span>
+                            </span>
+                        </li>
+                    </ul>
+    
+                    <ul class="button-box2">
+                        <li class="site-btn wep-btn">
+                            <a>
+                                <img src="/img/images/grogotago-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
+                                <span>WEPSITE</span>
+                            </a>
+                        </li>
+                        <li class="site-btn figma-btn">
+                            <a>
+                                <img src="/img/images/portfolio-img/figma-icon.svg" alt="FIGMA 아이콘 이미지입니다.">
+                                <span>FIGMA</span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+            </article>
+            <article class="all-project third-project">
+                <span class="project-img3"></span>
+                <div>
+    
+                    <div class="project-title">
+                        <h3 class="project-type">PERSONAL WORK</h3>
+                        <h2 class="project-en-name">BEAUTY SQUARE</h2>
+                        <h4 class="Paperlogy-500 project-ko-name">뷰티스퀘어</h4>
+                    </div>
+    
+                    <ul class="project-info Paperlogy-400">
+                        <li class="type">
+                            <span class="solution">솔루션 : </span>
+                            <span class="content">
+                                <span class="badge-hard badge">하드코딩</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업범위 : </span>
+                            <span class="content">
+                                <span class="badge-info">메인</span>
+                                <span class="badge-list">서브</span>
+                                <span class="badge-cart">상품목록</span>
+                            </span>
+                        </li>
+                        <li  class="type">
+                            <span class="solution">작업기여도 : </span>
+                            <span class="content">
+                                <span class="badge-percent">100%</span>
+                            </span>
+                        </li>
+                    </ul>
+    
+                    <ul class="button-box3">
+                        <li class="site-btn wep-btn">
+                            <a>
+                                <img src="/img/images/grogotago-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
+                                <span>WEPSITE</span>
+                            </a>
+                        </li>
+                        <li class="site-btn notion-btn">
+                            <a>
+                                <img src="/img/images/portfolio-img/notion-icon.svg" alt="NOTION 아이콘 이미지입니다.">
+                                <span>NOTION</span>
+                            </a>
+                        </li>
+                        <li class="site-btn git-btn">
+                            <a>
+                                <img src="/img/images/portfolio-img/git-icon.svg" alt="GIT 아이콘 이미지입니다.">
+                                <span>GIT</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+    
+        </section>
+    
+        <!-- 인덱스 3개 -->
+        <section id="card-box" class="navbar-fixed-top">
+            <h2 class="card-box-title">REDIGN</h2>
+            <ul class="card-content">
+                <li class="card">
+                    <div class="content">
+                        <h2 class="title Paperlogy-500">고르고타고</h2>
+                        <p class="copy Paperlogy-400">Slick Slider와 Swiper js 사용
+                            <br>반응형 제작</p>
+                        <div class="btn-box">
+                            <a href="https://www.gorgotago.com/" class="card-btn">ORIGINAL</a>
+                            <a href="/sub/grogotago.html" class="card-btn">WEP</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="content">
+                        <h2 class="title Paperlogy-500">한국도로공사 전주수목원</h2>
+                        <p class="copy Paperlogy-400">Plan your next beach trip with these fabulous destinations</p>
+                        <div class="btn-box">
+                            <a href="https://www.ex.co.kr/arboretum/" class="card-btn">ORIGINAL</a>
+                            <a href="#none" class="card-btn">WEP</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="content">
+                        <h2 class="title Paperlogy-500">무슨무슨 자전거사이트</h2>
+                        <p class="copy Paperlogy-400">It's the desert you've always dreamed of</p>
+                        <div class="btn-box">
+                            <a href="#none" class="card-btn">ORIGINAL</a>
+                            <a href="#none" class="card-btn">WEP</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    
+        <!-- 그래픽 디자인 -->
+        <section id="graphic" class="navbar-fixed-top">
+            <h2 class="collection_title"> GRAPHIC DESIGN</h2>
+            <div class="gallery">
+                <div class="gallery__item first-gallery">
+                    <a href="#" class="gallery__link">
+                        <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
+                        <div class="gallery__overlay">
+                            <span class="hover_text">자세히 보기</span>
+                        </div>
                     </a>
-                    <a class="site-btn figma-btn">
-                        <img src="/img/images/portfolio-img/figma-icon.svg" alt="FIGMA 아이콘 이미지입니다.">
-                        <span>FIGMA</span>
+                    </div>
+                <div class="gallery__item second-gallery">
+                    <a href="#" class="gallery__link">
+                        <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
+                        <div class="gallery__overlay">
+                            <span class="hover_text">자세히 보기</span>
+                        </div>
                     </a>
-                </span>
-
-            </div>
-        </article>
-        <article class="all-project third-project">
-            <span class="project-img3"></span>
-            <div>
-
-                <div class="project-title">
-                    <h3 class="project-type">PERSONAL WORK</h3>
-                    <h2 class="project-en-name">BEAUTY SQUARE</h2>
-                    <h4 class="Paperlogy-400 project-ko-name">뷰티스퀘어</h4>
                 </div>
-
-                <ul class="project-info Paperlogy-400">
-                    <li class="type">
-                        <span class="solution">솔루션 : </span>
-                        <span class="content">
-                            <span class="badge-hard badge">하드코딩</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업범위 : </span>
-                        <span class="content">
-                            <span class="badge-info">메인</span>
-                            <span class="badge-list">서브</span>
-                            <span class="badge-cart">상품목록</span>
-                        </span>
-                    </li>
-                    <li  class="type">
-                        <span class="solution">작업기여도 : </span>
-                        <span class="content">
-                            <span class="badge-percent">100%</span>
-                        </span>
-                    </li>
-                </ul>
-
-                <span class="button-box3">
-                    <a class="site-btn wep-btn">
-                        <img src="/img/images/portfolio-img/web-icon.svg" alt="WEP 아이콘 이미지입니다.">
-                        <span>WEPSITE</span>
+                <div class="gallery__item third-gallery">
+                    <a href="#" class="gallery__link">
+                        <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
+                        <div class="gallery__overlay">
+                            <span class="hover_text">자세히 보기</span>
+                        </div>
                     </a>
-                    <a class="site-btn notion-btn">
-                        <img src="/img/images/portfolio-img/notion-icon.svg" alt="NOTION 아이콘 이미지입니다.">
-                        <span>NOTION</span>
+                    </div>
+                <div class="gallery__item fourth-gallery">
+                    <a href="#" class="gallery__link">
+                        <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
+                        <div class="gallery__overlay">
+                            <span class="hover_text">자세히 보기</span>
+                        </div>
                     </a>
-                    <a class="site-btn git-btn">
-                        <img src="/img/images/portfolio-img/git-icon.svg" alt="GIT 아이콘 이미지입니다.">
-                        <span>GIT</span>
-                    </a>
-                </span>
-            </div>
-        </article>
-
-    </section>
-
-    <!-- 인덱스 3개 -->
-    <section id="card-box">
-        <h2 class="card-box-title">REDIGN</h2>
-        <ul class="card-content">
-            <li class="card">
-                <div class="content">
-                    <h2 class="title Paperlogy-500">고르고타고</h2>
-                    <p class="copy Paperlogy-400">Slick Slider와 Swiper js 사용
-                        <br>반응형 제작</p>
-                    <div class="btn-box">
-                        <a href="https://www.gorgotago.com/" class="card-btn">ORIGINAL</a>
-                        <a href="/sub/grogotago.html" class="card-btn">WEP</a>
-                    </div>
-                </div>
-            </li>
-            <li class="card">
-                <div class="content">
-                    <h2 class="title Paperlogy-500">한국도로공사 전주수목원</h2>
-                    <p class="copy Paperlogy-400">Plan your next beach trip with these fabulous destinations</p>
-                    <div class="btn-box">
-                        <a href="https://www.ex.co.kr/arboretum/" class="card-btn">ORIGINAL</a>
-                        <a href="#none" class="card-btn">WEP</a>
-                    </div>
-                </div>
-            </li>
-            <li class="card">
-                <div class="content">
-                    <h2 class="title Paperlogy-500">무슨무슨 자전거사이트</h2>
-                    <p class="copy Paperlogy-400">It's the desert you've always dreamed of</p>
-                    <div class="btn-box">
-                        <a href="#none" class="card-btn">ORIGINAL</a>
-                        <a href="#none" class="card-btn">WEP</a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </section>
-
-    <!-- 그래픽 디자인 -->
-    <section id="graphic">
-        <h2 class="collection_title"> GRAPHIC DESIGN</h2>
-        <div class="gallery">
-            <div class="gallery__item first-gallery">
-                <a href="#" class="gallery__link">
-                    <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
-                    <div class="gallery__overlay">
-                        <span class="hover_text">자세히 보기</span>
-                    </div>
-                </a>
-                </div>
-            <div class="gallery__item second-gallery">
-                <a href="#" class="gallery__link">
-                    <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
-                    <div class="gallery__overlay">
-                        <span class="hover_text">자세히 보기</span>
-                    </div>
-                </a>
-            </div>
-            <div class="gallery__item third-gallery">
-                <a href="#" class="gallery__link">
-                    <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
-                    <div class="gallery__overlay">
-                        <span class="hover_text">자세히 보기</span>
-                    </div>
-                </a>
-                </div>
-            <div class="gallery__item fourth-gallery">
-                <a href="#" class="gallery__link">
-                    <img src="https://cdn.shopify.com/s/files/1/0573/5995/8186/files/Gymnastics-and-Bodyweight.jpg?v=1626337481" class="gallery__image"> <div class="collectiontitle">GYMNASTICS & BODYWEIGHT</div>
-                    <div class="gallery__overlay">
-                        <span class="hover_text">자세히 보기</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="process" class="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h2>Our Process</h2>
-                    <hr class="colored">
-                    <p>Here is an overview of how we approach each new project.</p>
                 </div>
             </div>
-            <div class="row content-row">
-                <!-- Service Item 1 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Plan</h3>
-                            <ul>
-                                <li>Client interview</li>
-                                <li>Gather consumer data</li>
-                                <li>Create content strategy</li>
-                                <li>Analyze research</li>
-                            </ul>
-                        </div>
+        </section>
+    
+        <!-- 능력 -->
+        <section id="process" class="navbar-fixed-top">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 wow fadeIn">
+                        <h2>Our Process</h2>
+                        <hr class="colored">
+                        <p>Here is an overview of how we approach each new project.</p>
                     </div>
                 </div>
-                <!-- Service Item 2 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-pencil"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Create</h3>
-                            <ul>
-                                <li>Build wireframe</li>
-                                <li>Gather client feedback</li>
-                                <li>Code development</li>
-                                <li>Marketing review</li>
-                            </ul>
+                <div class="row content-row">
+                    <!-- Service Item 1 -->
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="fa fa-clipboard"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Plan</h3>
+                                <ul>
+                                    <li>Client interview</li>
+                                    <li>Gather consumer data</li>
+                                    <li>Create content strategy</li>
+                                    <li>Analyze research</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Service Item 3 -->
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-rocket"></i>
+                    <!-- Service Item 2 -->
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="fa fa-pencil"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Create</h3>
+                                <ul>
+                                    <li>Build wireframe</li>
+                                    <li>Gather client feedback</li>
+                                    <li>Code development</li>
+                                    <li>Marketing review</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Launch</h3>
-                            <ul>
-                                <li>Deploy website</li>
-                                <li>Market product launch</li>
-                                <li>Collect UX data</li>
-                                <li>Quarterly maintenence</li>
-                            </ul>
+                    </div>
+                    <!-- Service Item 3 -->
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Launch</h3>
+                                <ul>
+                                    <li>Deploy website</li>
+                                    <li>Market product launch</li>
+                                    <li>Collect UX data</li>
+                                    <li>Quarterly maintenence</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Testomonials Section -->
-    <section class="testimonials bg-gray">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="testimonials-carousel">
-                        <!-- NOTE: You can add more items to the carousel, or remove items you don't need! -->
-                        <!-- Testimonial Item 1 -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="img/agency/testimonials/1.jpg" class="img-circle img-responsive" alt="">
+        </section>
+    
+        <!-- Testomonials Section -->
+        <section class="testimonials bg-gray">
+            <div class="container wow fadeIn">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="testimonials-carousel">
+                            <!-- NOTE: You can add more items to the carousel, or remove items you don't need! -->
+                            <!-- Testimonial Item 1 -->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                                        <hr class="colored">
+                                        <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
+                                        <div class="testimonial-info">
+                                            <div class="testimonial-img">
+                                                <img src="img/agency/testimonials/1.jpg" class="img-circle img-responsive" alt="">
+                                            </div>
+                                            <div class="testimonial-author">
+                                                <span class="name">Jim Walker</span>
+                                                <p class="small">CEO of Company Name</p>
+                                                <div class="stars">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of Company Name</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item 2 -->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <p class="lead">"Vitality is a well coded, well documented, and easy to use theme!"</p>
+                                        <hr class="colored">
+                                        <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
+                                        <div class="testimonial-info">
+                                            <div class="testimonial-img">
+                                                <img src="img/agency/testimonials/2.jpg" class="img-circle img-responsive" alt="">
+                                            </div>
+                                            <div class="testimonial-author">
+                                                <span class="name">Ashley Creadle</span>
+                                                <p class="small">Creative Director of Company Name</p>
+                                                <div class="stars">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Testimonial Item 2 -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Vitality is a well coded, well documented, and easy to use theme!"</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="img/agency/testimonials/2.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Ashley Creadle</span>
-                                            <p class="small">Creative Director of Company Name</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="section" class="navbar-fixed-top">
+            <div class="container wow fadeIn">
+                <div class="contact-top">
+    
+                    <div class="contact-left">
+                        <p class="contact-title syncopate-bold">EO
+                            <br>SEONYEONG
+                        </p>
+                        <p class="pick-text Paperlogy-400">제가 궁금해지셨다면
+                            <br>연락주세요!
+                        </p>
+                    </div>
+    
+                    <div class="contact-right">
+                        <span class="qr-img-box">
+                            <img class="qr-img" src="/img/images/portfolio-img/qr-img.jpg" alt="카카오 큐알코드 이미지입니다.">
+                        </span>
+                        <div class="contact-content">
+                            <div class="email-box">
+                                <p>email</p>
+                                <p class="Paperlogy-600">sy11181@naver.com</p>
+                            </div>
+                            <div class="number-box">
+                                <p>number</p>
+                                <p class="Paperlogy-600">010-6553-5140</p>
                             </div>
                         </div>
                     </div>
+    
                 </div>
+                <p class="copyright">Copyright © 2021 EO SEON YEONG. ALL Rights Reserved.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container wow fadeIn">
-            <div class="contact-top">
-
-                <div class="contact-left">
-                    <p class="contact-title syncopate-bold">EO
-                        <br>SEONYEONG
-                    </p>
-                    <p class="pick-text Paperlogy-400">제가 궁금해지셨다면
-                        <br>연락주세요!
-                    </p>
-                </div>
-
-                <div class="contact-right">
-                    <span class="qr-img-box">
-                        <img class="qr-img" src="/img/images/portfolio-img/qr-img.jpg" alt="카카오 큐알코드 이미지입니다.">
-                    </span>
-                    <div class="contact-content">
-                        <div class="email-box">
-                            <p>email</p>
-                            <p class="Paperlogy-600">sy11181@naver.com</p>
-                        </div>
-                        <div class="number-box">
-                            <p>number</p>
-                            <p class="Paperlogy-600">010-6553-5140</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <p class="copyright">Copyright © 2021 EO SEON YEONG. ALL Rights Reserved.</p>
-        </div>
-    </section>
+        </section>
+    
 
         <!-- Core Scripts -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
 
     <!-- Plugin Scripts -->
     <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -559,6 +575,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="/js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="pullpage.js"></script>
 
     <!-- Contact Form Scripts -->
     <script src="js/contact_me.js"></script>

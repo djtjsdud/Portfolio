@@ -98,8 +98,20 @@ function random(min, max) {
 
 
 // 진행바
-gsap.to("progress", {
-    value: 100,
-    ease: "none",
-    scrollTrigger: { scrub: 0.3 }
+
+document.querySelector(".progress-bar-one").style.width = "0%";
+
+window.addEventListener("scroll", function () {
+    
+    const scrollTop = document.querySelector("html").scrollTop;
+    const scrollHeight = document.querySelector("html").scrollHeight;
+    const clientHeight = document.querySelector("html").clientHeight;
+
+    console.log("scrollTop: ", scrollTop);
+    console.log("clientHeight: ", clientHeight);
+    console.log("scrollHeight: ", scrollHeight);
+
+    const progress = (scrollTop / (scrollHeight - clientHeight)) * 100;
+    
+    document.querySelector(".progress-bar-one").style.width = progress + "%";
 });

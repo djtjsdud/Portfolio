@@ -56,3 +56,9 @@ var category_swiper = new Swiper("#category-swiper", {
         prevEl: "#category-swiper .swiper-button-prev",
     },
 });
+
+// aos 플러그인
+
+<script> 
+AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+</script>
